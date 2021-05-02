@@ -1,0 +1,378 @@
+body {
+     margin: 0%;
+     padding: 0%;
+     background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png");
+}
+body a {
+    text-decoration: none;
+    color: inherit;
+}
+.nav-1{
+    height: 60px;
+    border-bottom: 2px solid #898989;
+    background-color: #f5f5f5;
+}
+.nav-1 ul li {
+    display: inline;
+    padding: 40px 1% 8px 1% ;
+    border-left: 2px solid #898989;
+}
+.nav-1 ul {
+    margin: 0px 19% 10px 19%
+}
+.nav-2{
+    padding: 5px 19% 10px 21%;
+    height: 90px;
+    background-color: white;
+}
+.nav-2 div {
+    display: inline-block;
+    width: 120px;
+    height: 90px;
+    text-align: center;
+    vertical-align: top;
+    color: #898989
+}
+.nav-2 img{
+    width: 30px;
+    height: 30px;
+}
+.nav-2 div:hover{
+    color: white;
+}
+a .one{
+    background-color: gray;
+    color: white;
+}
+.two:hover{
+    background-color: #e3350d;
+    color: white;
+}
+.three:hover{
+    background-color: #ee6b2f;
+    color: white;
+}
+.four:hover{
+    background-color: #e6bc2f;
+    color: white;
+}
+.five:hover{
+    background-color: #4dad5b;
+    color: white;
+}
+.six:hover{
+    background-color: #30a7d7;
+    color: white;
+}
+.seven:hover{
+    background-color: #1b53ba;
+    color: white;
+}
+.log-in{
+    width: 65px;
+    height: 120px;
+    position:fixed;
+    z-index: 1;
+    left: 158px;
+    border: 2px solid black;
+}
+.log-in .a{
+    background-color:#4dad5b;
+    width: 60px;
+    color: white;
+    padding: 30px 0px 30px 5px;
+}
+.log-in .b{
+    background-color: black;
+    height: 40px;
+    width: 65px;
+    text-align: center;
+}
+.log-in img{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+.cont{
+    margin: 0px 10% 0px 10%;
+    background-image: url("https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png");
+    background-color: white;
+    height: 100%;
+}
+.cont-1{
+    background-color: white;
+    padding-top: 10px;
+    margin: 0px 15% 0px 15%;
+    height: 735px;
+    width: 890px;
+    padding: 5px;
+}
+.cont-1-1{
+    background-color: #1b53ba;
+    width: 578.25px;
+    height: 450px;
+    color: white;
+    padding: 5px;
+}
+.cont-1-1 div {
+    display: inline-block;
+}
+.cont-1-1-1 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-1-1-1{
+    width: 280px;
+    height: 250px;
+    background-color: pink;
+    padding: 3px;
+}
+.cont-1-1-2 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-1-1-2{
+    width: 280px;
+    height: 250px;
+    background-color: gray;
+    padding: 3px;
+}
+.cont-1-2-1 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-1-2-1 {
+    background-color: green;
+    color: white;
+    width: 280px;
+    height: 240px;
+    padding: 5px;
+}
+.cont-1-2-2 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-1-2-2 {
+    background-color: blue;
+    color: white;
+    width: 280px;
+    height: 240px;
+    padding: 5px;
+}
+.cont-1-2-3 img{
+    width: 160px;
+    height: 200px;
+    
+}
+.cont-1-2-3 {
+    background-color: #675945;
+    color: white;
+    width: 280px;
+    height: 200px;
+    padding: 5px;
+}
+.cont-1-2-3 h3{
+    position: relative;
+    top: -110%;
+    left: 60%;
+    width: 70px;
+}
+.cont-1-1,.cont-1-2 {
+    display: inline-block;
+    vertical-align: top;
+}
+.cont-2 div{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.feat-pok{
+    color: #898989;
+    background-color: black;
+    height: 80px;
+    width: 200px;
+    position: relative;
+    top: 55px;
+    left: 150px;
+    border: none;
+}
+.feat-pok img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.pic1{
+    margin: 0px 0px 0px 0px;
+}
+.pic2{
+    position: relative;
+    left: -7px;    
+}
+.pic3{
+   position: relative;
+    left: -11px;    
+    top: 17px;
+}
+.pic4{
+    position: relative;
+    left: -16px;    
+}
+.pic5{
+    position: relative;
+    left: 1106px;
+    bottom: 387px;
+    width: 80%;
+}
+.explore {
+    color: #898989;
+    background-color: black;
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    position: relative;
+    bottom: 320px;
+    left: 950px;
+}
+.explore:hover{
+    cursor: pointer;
+}
+.cont-3{
+    background-color: white;
+    margin: 0px 15% 0px 15%;
+    height: 735px;
+    width: 890px;
+    padding: 20px;
+}
+.cont-3-1 div {
+    display: inline-block;
+}
+.cont-3-1-1 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-3-1-1 {
+    background-color: pink;
+    color: white;
+    width: 280px;
+    height: 380px;
+    padding: 5px;
+}
+.cont-3-1-1 p{
+    color: #c3005b;
+}
+.cont-3-1-2 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-3-1-2 {
+    background-color: #ee6b2f;
+    color: white;
+    width: 280px;
+    height: 380px;
+    padding: 5px;
+}
+.cont-3-1-2 p{
+    color: black;
+}
+.new{
+    color: gray;
+    font-size: 40px;
+    font-weight: 100;
+}
+.cont-3-1-3 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-3-1-3 {
+    background-color: #b38aea;
+    color: white;
+    width: 280px;
+    height: 380px;
+    padding: 5px;
+}
+.cont-3-1-3 p{
+    color: #4b1a8e;
+}
+.cont-3-2 div {
+    display: inline-block;
+}
+.cont-3-2-1 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-3-2-1 {
+    background-color: #4dad5b;
+    color: white;
+    width: 280px;
+    height: 380px;
+    padding: 5px;
+}
+.cont-3-2-1 p{
+    color: #0e2011;
+}
+.cont-3-2-2 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-3-2-2 {
+    background-color: #313131;
+    color: white;
+    width: 280px;
+    height: 380px;
+    padding: 5px;
+}
+.cont-3-2-2 p{
+    color: #cccccc;
+}
+.cont-3-2-3 img{
+    width: 280px;
+    height: 160px;
+}
+.cont-3-2-3 {
+    background-color: #e6bc2f;
+    color: white;
+    width: 280px;
+    height: 380px;
+    padding: 5px;
+}
+.cont-3-2-3 p{
+    color: #212121;
+}
+.cont-3 {
+    position: relative;
+    bottom: 280px;
+}
+footer{
+    background-color: #1f1f1f;
+    color: #898989;
+    padding: 10px 19% 10px 20%;
+}
+footer div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.foot-1{
+    border-right: 2px solid black;
+    width: 280px;
+    height: 220px;
+}
+.foot-1  h3{
+    color: white;;
+}
+.foot-1 a:hover{
+    color: white;
+}
+.foot-2 img{
+    display: inline;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.foot-2{
+    border-right: 2px solid black;
+    width: 280px;
+    height: 200px;
+    padding: 20px 0px 0px 40px
+}
+.foot-3 li{
+    list-style: none;
+}

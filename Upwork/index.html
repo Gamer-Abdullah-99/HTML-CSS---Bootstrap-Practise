@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upwork</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav green">
+        <div class="nav-1">
+            <ul>
+                <li style="padding-left: 180px;vertical-align: middle;"><a href="#"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZsAAAB6CAMAAABeKQ5ZAAAAulBMVEX///8AAABv2kQ9PT34+PjQ0NBr2T7f399n2DdnZ2fD7rWP4XL6/vhh1y2Z439k2DEjIyPq+eVbW1uFhYXm5uZp2TuhoaE2NjaYmJhwcHDP8cS366awsLDz8/N5eXm9vb3v+uue5YZ73Vbk995UVFTIyMgvLy/Y2Njb9dMTExNJSUkaGhpQUFCPj4/Ly8ubm5uk5o6w6Z6/7bB1202F32Pe9dbK8L6U4nlZ1huB3l6K4Gqk5o2s6Ji1tbWNbzhXAAAOzklEQVR4nO1daVfbOhANAYyBuIaAAyQsCSm0ZWnZeUD5/3/rkc3WzNyRHCKIT9H9wDk4kiLrSppVSq0W8MFoLho4/THv7gQYWFwwsTzv7gQYCNxUF4Gb6iJwU10EbqqLwE11EbipLgI31UXgproI3FQXgZvqInBTXQRuqovATXURuKkuAjfVxfu5aXBMWX6WXn8NvJ+bu4Tgv3V78Zv/WPn+TP3+Cng/N+tR3UT0zV58LSbF63Fnpn5/BcyNm+h4pn5/BcyNm3rSnaXfXwHz4ya+manjXwDz4yZ6mqnjXwDz46aebM7U838fc+QmaGoOzJGb+u1MPf/3MU9ukvtSX7TZ7vTWn46Pj5/WXzrt7hRd/GAsLbe2mosb5+cbZ6tb+/7zlefJTfbi/pZ2L0riOBoji+OkfvVTKbtEUKbQDA2tXO4sMJy1th1v42iYPS7BjdLg7NzUU8erbL6kcSRqZWl8BdWIX+Rd8DitkjL4a+mgr4ASS60NTswIi6+291mhhc2PTi6b56Onh/mzEtzQBnNyPHATr9lq9NeTTNYZ0ZM8A3fcLunoPmyUvgyei6TIL1ngYAsTM8If/Y0oNxv589/mjNnKH7u5oV31yo3Nb9N4TOSSMaom611e5Qfp6CpqdZu+zC4qc0SKbInPL23MDIBnRU3j5vep8oVubtjr5M89cGPRBtZSGzMjdoQOrvTUwD4tcobKHJIiJ+zT3y5m3rCjyB3EzcF3Vnkabug0Kpa4D27USo+pg5kB4qcurbVHuooUJ1oC82ctcbhQCi34VoCbE1F1Gm7oEv6eP/fBTT2BIbbGrSZoGLUpVdnoNEIbFh8I8MJ0n2iSzw5OeQMa4I4qufkja07DzYZS0ws32TUoupm59rOCW6JNUNG4KFtm+zPkj257RHas8OoWnALdW3CDlIopuGH9KXREL9zUY1lyE+jNOjlE6JyRvh44xn0BCpym2sY01CwsnEtyODdQ35uCG7bBFlLOEzciUtAtv2qG5JgNtEhfj0QnuLhBAod8fKqOrBuSHNrCzhGsVp6bA/Vd/HBTj3jB26moeSOnrb38IW9aiBvwxsvk40t9JNzY4W3T7p3jWuW5oXa0+bqeuOH253o5NcAkx3ASENeAMBuFuAECh6o+hq6neAJs4ApBqZVXmhuu4v32zk29TordlFGeGYylR3dwbmYIcQMEDnXYFM9XZd0BfjUPt7YOuY0yAVOlvXIj1rHxmS9u4gej1GYyPTX17DGvT+cStzKkuBECh77xXv4cyobVo1xV2H6F/FBnnFduuDpv7gDe1o25cI4VYRNlWZxFmiQyRA7pbpP1AQ0Fe2XKQa5NLIGaLSbrkZuNihw7NzsXzTd8LyaUlRthaZkapTduDFVtDe5oWRo/X113rnt3qebJyVugGjDtAhA3QuBQtTQffbnipJ/tjZ2mKFbSPjo8kQq/jZvtX7wF0h9/66awcVCZLH0pvG4/e9A3XYS39/X3QeJGCBzyWW69ykFVIl3yK8xPNW4U56jOTUu2QRaxR24mzoFrUCbpUbdO4wX5p3N66dq4JFWRuGFri45e7u7n62EDzPIRfrCSZF1ibtAKHELj5gR4jmhkwh83E69aQyoCUdoWLfWBBVTsi6TfdLuHI0NXAJ2QE0nON8ONmg6xcRqfQW70WDPlZqzOb7eQT4/1yCM347odUSSKuqitZ9DW5DNqn5jzG4obJnCosjV5yp3PWix7CL5yjA0LcWMJY1NuLl9f93dXhZwZgQVnPXIzjuOA5dDFjUkDNfdIU7veDBEbsuDcUKmIwCGVD+FTHHwwwISB4XIF3NgyDBZlcQXcWPDJzTAA2hZKWqJlbUhdO+pNPiKd3jPqGOJmz7SDjCI0cDYJqzHbhgoxAOpxNYZfcvPb0kx5bkRAwic3Q3mxzsc7/qu21hU85tqAmq1hPN037RVjw7+EdZlLwP6eNbF5FpNacKOqAUOU5UYGQ7xyU0+7QBOwNHfDm0snyR2vpN/FRmyO2LapMhgCh4jZPIxIR0LNBihAFcIiHCm4sTdTkptTWdMvN9F6W4y2VNEM8AZyE4d6XYpJa5oexPF2kRfBVS2ZSwq0GpwbHLnOUY4b4e2uzc7NLSOH/f/2YKr2otypRl6pmLSmuKGOt7wIXXITOUHtSae0EV0o1i7nZqpWFHxHNWc9t+ZYSNQHKtEQEmfyCY3B5xWMZ6/UQZYLHLIX5SYDdZOVSq2lqlquLDJu9mxN1MpxgyXWjNykNb5Q6ryAHc9MdUjwCEyULSpuSCwgFzj4rbHNYwW1cfL2GTcyLktRghueoTXGzNw8WEM1zmRpbqkWZxThEJvWzeB/QyWbCBw6ovlqIkE1mNEmQVrK1wfjxpU97eRmVTOCZ+WmYY8+p6ptMwbXHXJFjZrxk63J2K+GNqVpyoyL0J0o/yLyVMa5IYj5nocqptQqXNzo2b2zc9O2BdISe3O1Wp8tu4JMaiuO3TbGkyP+YLxEiM1Y2HOkNZilK0GaUtzZNq/cEM51o3pcZ+emdqcvnOjZ1fMuYzZWAmwjSbwtXskYvtGAL4FqorWS3BBzNTdAfHOjbrAeuOnrCydzHji0cEOk92gBGOJmPFTGqYORwKHx7GJOkselVOjP4kbtDefmUSk3Bjfkh2rYNzWpJrYangPoexoSHIa4GWsHy7wI0ZUNi440Zvey5LiAbc3EzerWnnRCKwGGR8bNnf2LrhkNQ/+XNFImcN8MoesCzKE1tEiM/yeqK39Foo8ZexcZEZjnLEHq5ObhTNwMXoMaxwNgTe2FCYvM/kWMynHiknCLlWztDX8Z2SabJC1voM5IcUN2vt0aJBQMkXNAh6CiS9Ghp+RmOH9EDOoC1uQLwXFdAHcLjJeZkljj2iFBTVOxI9vTQGIa4ibfYVr0DalrxmiMei5V3cgEDSIptud7uJG5WFCRfuAXO1nvQOHSYRJvUdQB990DPJONnIGjcZglMr65/DRNzRoT36Y7hR5VdBnzQ1ziKh64kQeAkBPpno+29WKnKy5uJoP/F+5qTstTNJj1zE9J70/I/yeo0DKrYjJApyrPeYNQTgX74Ebm/oKaIt5iG09LYegdwGemDHANmrlGySLYItt0IT2N7Jk/zGFjiliW3FpiU2OZyvlzL9wIkYNmC9/wbQunx5XlYvDxrubqN1ctmGJHhMcv818jSEgEDtm5qFGnnZVVQYPShWrnhRuprIEwEFeULELiJx9/0+zvAEU6erIvnAfRII320Ll+YIgbQzk2h4qOJ31bdjDauXDYsik8DH64kWnz8goELnD0Y88Nec+QqTgg101kNT7lWuPzghwHeD1Hr0hEDNUe6MuyrCYYzTLBRq7YHz1xU+Mnd8AdCNKoT+EFqQ0pUsgO1IDegeRRXTpc6eMN1phyZRJlFjImIBkH/q5M/DpCyWxaG9aqL25E3oG0iLmFU8dZS5sy/z+il+L2oa4WpYpWDvzXwjUqcl/HILYaTJBekCKFpx9br/3hR5+NNCdf3MiOiwQToSsNyLnipW5AKabSgRSbIeLsBqydHvpaMSeUYSemmpLpKaOJvIAlMM151E+MzsCNSNCWcbpvQFBkGZnt7Vt0VwpL0/iputXitMdo7MRgBwT3S+LEdDaqCjeiMXFNihILBiVNS8kfN6Ln57wyWjjD8XzoD+b7ZvsqggdmEibnZSK0Mexp/HhzP1o+/YfHBF8hIZUQfAiZDTsmEBgMogzWpJfEfCYZSh65EXu2SAzhxvlkPOM0ieMkRVO8DlzWIqNTNpdm9ShBN3YNkAHvGzppJoZd+nUHANmBUjKdA6ED5BdZpx65kUdwuDNJKsdlILyi72rFQIo0ujPe+QGYioUFDsqxAHGuMzoaSy2Q40/TC3xyUxPnS3m3rSF/BTG/J+VdB3ANJDCTDZztklYaOuMPxwyzuHe0MrReDn7sy+OEA9BGvHIjNgaRe/tt6jkv5Tb3aE+JGEfD4UEkXghd64QDvZq+bQXT57xyI0WOyAGa9hqNeiw2IOH8mQqqGw9sMcJGQxqDYr2UvJ3LBBdcfrlhwYsFJHKmIyeRroOnaekl1NQ19wE4Ui6kPLoIRRuqC1DWCqHLeeZGilTu6tuc6iYN5DiYRdxEWVd7NXltHHAKysOTekZA+XNkQ8h0Z9/cCJEjTuJMc6cWogZ4x8pTgw+EjiCHS5aRi8tyUy1U/TSADFDf3MgLKsVSBQ4zZSRT5Kh2HSiwIDu2hRKE6gQS9+XisoUAlEttEFCSoXdu5NQShxQbT6WGN7vtovZ74ixh2XWY2DM+3B7BMtsCgRC/GmBagX9u5D4rp9Zf64XB45FUMj/5WY+48a1Ea4OLbu0ndKRNUsaotFzvPMAybxNiBy++D+BGKDMgD/ce+TTJiEdKsIw7oQfu/v6dk50oWXf+1CEX9KgMd06ia9QJSujSGr8fwI20ApB5dpNa2MkSdGnqENwJPbpe9eedeqn6kJn01pmJI8Ydns/g4tTd6opDJdhTJdZHcCPnCirYuM7wNU1RnP7V5zh3Qk+C0f1eogmeLHlypksPwDYgqIExgVPqfM2ydpfdgBnLiSd2J6Tra+g1e2pAT5gBOA+3/Zxw33MUJ3dWucCd0EZ0uf0YC9fzG9HR37K/DdpcNdDE83mvaeDCehlDge1LeHnJDr9TjdUi/XEd96wdkt6rmy1t9a2ktqU2Hl5ukzSO4yx7+5Mm9d5D194D8Tts5NP7zno0bG+INImfO+V+NefDsdKiGvXG4avrkGAF0Oi31zrX152bdt/9y8Q8Pgcyod/ae7jpdDpr7fvuB3R3Bhz8ONr/s7vb2h/7o/8x8KMa4VfYqgPuhHZnQgd8FrgT2pkJHfBp4OIm/HhhZcCd0GV+Hy/gc8Cd0PafYAv4THAnNM6oDpgHuBPadcNQwKdBOKEdJ+EDPg/CCa1f0RnwydCc0AHzh8UJHTBn8PiZ+zqOgE9CCSd0wJwQnNDVRXBCVxfBCV1d8Gzb4ISuDLTLoQLmj+CEri6CE7q64E5o553QAZ+F4ISuLoITuroITujqIjihq4skSU0kQRWoDjYZuvPu0L+C/wHt0AcvRODOHwAAAABJRU5ErkJggg=="
+                            alt="Upwork"></a></li>
+                <li><a href="#">Find Talent</a></li>
+                <li><a href="#">Find Work</a></li>
+                <li><a href="#">Why Upwork</a></li>
+                <li style="padding-left: 100px;">
+                    <input type="text" placeholder="Search">
+                </li>
+                <li>| </li>
+                <li><a href="#">Log in</a></li>
+                <li><button
+                        style="background-color:#37A000;color: white;border: none;border-radius: 7px;height:30px;width: 80px;">Sign
+                        Up</button></li>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-2">
+            <ul>
+                <li style="padding-left: 180px;"><a href="#">Development & IT</a></li>
+                <li><a href="#">Design & Creative</a></li>
+                <li><a href="#">Sales & Marketing</a></li>
+                <li><a href="#">Writing & Translation</a></li>
+                <li><a href="#">Admin & Customer Support</a></li>
+                <li><a href="#">Finance & Accounting</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="cont-1">
+        <div class="cont-1-1">
+            <h1>The world’s work <br>
+                marketplace</h1>
+            <p>
+                Engage the largest network of trusted <br>
+                independent professionals to unlock <br>
+                the full potential of your business.
+            </p>
+            <br>
+            <button
+                style="background-color:#37A000;color: white;border: none;border-radius: 7px;height:40px;width: 100px; ">Find
+                Talent</button>
+            <button
+                style="background-color:white;color: #37A000; border: 1px solid black;border-radius: 7px;height:40px;width: 100px;">Find
+                Work</button>
+            <br><br><br><br>
+            <img src="https://www.upwork.com/static/assets/Brontes/638ecf1/img/microsoft.f471031.svg" height="25px">
+            <img src="https://www.upwork.com/static/assets/Brontes/638ecf1/img/airbnb.6b009a4.svg" height="25px">
+            <img src="https://www.upwork.com/static/assets/Brontes/638ecf1/img/ge.e325d66.svg" height="25px">
+            <img src="https://www.upwork.com/static/assets/Brontes/638ecf1/img/godaddy.a57c72f.svg" height="25px">
+            <img src="https://www.upwork.com/static/assets/Brontes/638ecf1/img/bissell.cbe9433.svg" height="25px">
+        </div>
+        <div class="cont-1-2">
+            <img src="cont-1.PNG">
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="cont-2">
+        <p> FOR CLIENTS</p>
+        <h1> Find talent your way</h1>
+        <p> Develop trusted relationships and build your own virtual talent bench for quick project turnarounds or big
+            transformations.</p>
+        <a href="#">
+            <div class="box">
+                <h2>Post a hob <br> and hire a pro</h2>
+                <p>Talent Marketplace</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box">
+                <h2>Shop ready-to-<br>go products</h2>
+                <p>Project Catalog</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box">
+                <h2>Let us find the<br> right talent</h2>
+                <p>Talent Scout</p>
+            </div>
+        </a>
+        <p>Need a solution for large organizations? <a href="#" style="color: #37A000;"> Enterprise Suite has you
+                covered.</a></p>
+    </div>
+    <br><br><br>
+    <div class="cont-3">
+        <div class="cont-3-1 green">
+            <h1><a href="#" style="color: #37A000;">Development & IT</a></h1>
+            <h1><a href="#">Design & Creative</a></h1>
+            <h1><a href="#">Sales & Marketing</a></h1>
+            <h1><a href="#">Writing</a></h1>
+            <h1><a href="#">Customer Support</a></h1>
+            <h1><a href="#">Accounting</a></h1>
+            <h1><a href="#" style="color: #37A000;">See all categories</a></h1>
+        </div>
+        <div class="cont-3-2 borders">
+            <p>
+                <a href="#">AR/VR
+                    Development</a>
+                <a href="#">Automation
+                    Testing</a>
+            </p>
+            <p>
+                <a href="#">Back-End
+                    Development</a>
+            </p>
+            <p>
+                <a href="#">Business
+                    Applications
+                    Development</a>
+            </p>
+            <p>
+                <a href="#">CMS
+                    Development</a>
+                <a href="#">Cloud
+                    Engineering</a>
+            </p>
+            <p>
+                <a href="#">Coding
+                    Tutoring</a>
+                <a href="#">Database
+                    Administration</a>
+            </p>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="cont-4">
+        <p>FOR TALENT</p>
+        <h1>Work Your Way</h1>
+        <p>Choose how you work, and unlock 141,181 new opportunities to earn.</p>
+        <a href="#">
+            <div class="box">
+                <h2>Find a project to <br>work on</h2>
+                <p>Talent Marketplace</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="box">
+                <h2>Sell a predefined <br> project</h2>
+                <p>Project Catalog</p>
+            </div>
+        </a>
+    </div>
+    <br><br><br>
+    <div class="cont-5">
+        <img src="cont-5.PNG">
+    </div>
+    <br><br><br>
+    <div class="cont-6 borders">
+        <p>
+            <a href="#">Data Entry Specialist</a>
+            <a href="#">Video Editors</a>
+            <a href="#">Data Analyst</a>
+            <a href="#">Shopify Developer</a>
+            <a href="#">Data Entry Specialist</a>
+        </p>
+        <p>
+            <a href="#">Android Developer</a>
+            <a href="#">Bookkeeper</a>
+            <a href="#">Content Writer</a>
+            <a href="#">Copywriter</a>
+            <a href="#">Database Administrator</a>
+        </p>
+        <p>
+            <a href="#">Data Scientist</a>
+            <a href="#">Front-End-Developer</a>
+            <button class="more" style="border: none;color:#37A000;font-size: 15px;background-color:white;">See More</button>
+        </p>
+    </div>
+    <br><br>
+    <a href="#" class="link">Browse All</a>
+    <br><br><br>
+</body>
+<footer>
+    <ul style="padding: 20px 20% 20px 26%;">
+        <li>COMPANY</li>
+        <li style="padding-left: 250px;">RESOURCES</li>
+        <li style="padding-left: 250px">BROWSE</li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">About Us</a></li>
+        <li style="padding-left: 263px;"><a href="#">Resources</a></li>
+        <li style="padding-left: 268px;"><a href="#">Freelancers by Skill</a></li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">Invester Relations</a></li>
+        <li style="padding-left: 223px;"><a href="#">Customer Support</a></li>
+        <li style="padding-left: 228px;"><a href="#">Freelancers in USA</a></li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">Careers</a></li>
+        <li style="padding-left: 273px;"><a href="#">Customer Stories</a></li>
+        <li style="padding-left: 235px;"><a href="#">Freelancers in UK</a></li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">Upwork Foundation</a></li>
+        <li style="padding-left: 210px;"><a href="#">Business Resources</a></li>
+        <li style="padding-left: 223px;"><a href="#">Freelancers in Canada</a></li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">Press</a></li>
+        <li style="padding-left: 283px;"><a href="#">Payroll Services</a></li>
+        <li style="padding-left: 240px;"><a href="#">Freelancers in Australia</a></li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">Trust,Safety & Security</a></li>
+        <li style="padding-left: 192px;"><a href="#">Upwork Reviews</a></li>
+        <li style="padding-left: 233px;"><a href="#">Jobs in USA</a></li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">Terms of Service</a></li>
+        <li style="padding-left: 229px;"><a href="#">Find Jobs</a></li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">Privacy Policy</a></li>
+    </ul>
+    <ul style="padding: 0px 20% 0px 26%;">
+        <li><a href="#">Accessibility</a></li>
+    </ul>
+    <hr>
+    <div class="end">
+        <div class="left">
+            Follow Us
+            <a href="#"><img src="fb-logo.png" width="20px" height="20px"></a>
+            <a href="#"><img src="linkedin-logo.png" width="20px" height="20px"></a>
+            <a href="#"><img src="twitter-logo.png" width="20px" height="20px"></a>
+            <a href="#"><img src="youtube-logo.png" width="30px" height="20px"></a>
+            <a href="#"><img src="instagram-logo.png" height="20px" width="20px"></a>
+        </div>
+        <div class="right">
+            Mobile App
+            <a href="#"><img src="apple-logo.png" width="20px" height="20px"></a>
+            <a href="#"><img src="android-logo.png" height="20px" height=""></a>
+        </div>
+    </div>
+    <hr>
+    <p style="text-align: center; padding: 20px 0px 20px 0px;">© 2015 - 2021 Upwork® Global Inc.</p>
+</footer>
+
+</html>
